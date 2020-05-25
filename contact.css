@@ -1,0 +1,144 @@
+.container{
+    width: 100%;
+    height: 100%;
+
+}
+
+/*---Reuse---*/
+
+.row{
+    width: 100%;
+    position: absolute;
+
+}
+
+/*----------*/
+/*--Header--*/
+/*----------*/
+
+#header{
+    background-color: darkblue;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top:0;
+    left: 0;
+}
+
+.imagelogo{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    margin: 0 350px 0 400px;
+    padding-top: 20px;
+}
+
+.logo{
+    position: absolute;
+    padding-left: 120px;
+    width: 30%;
+    position: absolute;
+    margin-left: 75px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+
+
+.jlogo{
+    position: absolute;
+    width: 20%;
+    padding-right: 100px;
+    position: absolute;
+    margin-left: 1050px;
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+
+.fontstyle{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:yellow;
+}
+
+/*----------------*/
+/*--Navigation Bar*/
+/*---------------*/
+
+.navsection .navbar{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.navsection .navfont{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.navsection .navul{
+                
+    padding-left: 140px;
+}
+.navsection ul li
+{
+    float: left;
+    list-style: none;
+    padding:5px;
+}
+/*---------------*/
+/*----Contact----*/
+/*---------------*/
+
+/*---Contact---*/
+.body{
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    left: 0;
+    padding: 50px 0 50px 75px;
+}
+
+.contact{
+    position: absolute;
+    margin: 0 0 100px 100px;
+    width: 40%;
+
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*---Get in Touch---*/
+
+.git{
+    position: absolute;
+    margin: 50px 0 0 900px;
+    width: 30%;
+}
+
+/*------------------*/
+/*--Footer Section--*/
+/*------------------*/
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    background-color: darkblue;
+    color: yellow;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 100px;
+}
